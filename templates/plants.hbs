@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Plants</title>
+</head>
+<body>
+    <h1>Your Plants</h1>
+    <form action="/search" method="post">
+        <input type="text" name="search" placeholder="Search for a plant">
+        <input type="submit" value="Search">
+    </form>
+    <ul>
+        {{#each plants}}
+        <li>{{this.name}} - owned by {{this.owner}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>
