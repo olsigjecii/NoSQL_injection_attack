@@ -1,8 +1,4 @@
-Of course. Here is the complete `README.md` file for the project.
-
------
-
-# NoSQL Injection Lesson in Rust
+# NoSQL Injection Lesson in Rust 🦀
 
 This project demonstrates a NoSQL injection vulnerability in a Rust application using the `actix-web` framework and MongoDB. It provides both a vulnerable implementation to exploit and a secure, mitigated version to show best practices for prevention.
 
